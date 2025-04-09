@@ -1,0 +1,16 @@
+{
+  "id" : "05a93ce8-76d0-4f72-8cf1-3837049df481",
+  "request" : {
+    "url" : "/products/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"available\":true,\"description\":\"A classic novel written by F. Scott Fitzgerald.\",\"id\":1,\"name\":\"The Great Gatsby\",\"price\":10.99}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "05a93ce8-76d0-4f72-8cf1-3837049df481"
+}
