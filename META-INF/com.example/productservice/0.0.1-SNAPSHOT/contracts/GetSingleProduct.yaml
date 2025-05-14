@@ -1,0 +1,14 @@
+description: "A request for product by ID"
+request:
+  method: GET
+  url: /products/1
+response:
+  status: 200
+  headers:
+    Content-Type: application/json
+  body:
+    available: true
+    description: "A classic novel written by F. Scott Fitzgerald."
+    id: 1
+    name: "The Great Gatsby"
+    price: 10.99
